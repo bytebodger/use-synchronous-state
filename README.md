@@ -114,4 +114,22 @@ _Not_ like this:
 console.log('counter value = ', counter);
 ```
 
-This also means that there's no need to reference the alternative syntax for updating a state variable, because `counter()` will always returns _the most recent value_ of the `counter` variable. 
+This also means that there's no need to reference the alternative syntax for updating a state variable, because `counter()` will always returns _the most recent value_ of the `counter` variable.
+
+It may be more intuitive for you to name the read function as a "getter" when it's destructured out of the `useSynchronousState()` call. That would look like this:
+
+```javascript
+const SomeComponent = () => {
+   const [getCounter, setCounter] = useSynchronousState(0);
+   
+   return <>
+      Counter: {getCounter()}
+      <div>
+         <button
+            onClick={() => setCounter(getCounter() + 1)}
+         >Increment
+         </button>
+      </div>
+   </>;
+}
+```

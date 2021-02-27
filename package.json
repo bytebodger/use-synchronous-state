@@ -1,6 +1,6 @@
 {
   "name": "@toolz/use-synchronous-state",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A custom React Hook that provides a synchronous way to read and update a state variable",
   "keywords": [
     "Hooks",
