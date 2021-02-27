@@ -1,6 +1,6 @@
 {
   "name": "@toolz/use-synchronous-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom React Hook that provides a synchronous way to read and update a state variable",
   "keywords": [
     "Hooks",
@@ -15,7 +15,7 @@
     "email": "adam.davis@hashverify.com",
     "url": "https://github.com/bytebodger/use-synchronous-state/issues"
   },
-  "main": "src/allow.js",
+  "main": "src/use.synchronous.state.js.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
