@@ -1,0 +1,61 @@
+{
+  "name": "@toolz/use-synchronous-state",
+  "version": "1.0.0",
+  "description": "A custom React Hook that provides a synchronous way to read and update a state variable",
+  "keywords": [
+    "Hooks",
+    "functional",
+    "state",
+    "javascript",
+    "react",
+    "synchronous"
+  ],
+  "homepage": "https://github.com/bytebodger/use-synchronous-state",
+  "bugs": {
+    "email": "adam.davis@hashverify.com",
+    "url": "https://github.com/bytebodger/use-synchronous-state/issues"
+  },
+  "main": "src/allow.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!@toolz/use-synchronous-state)/\" --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version",
+    "last 1 ie version"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bytebodger/use-synchronous-state.git"
+  },
+  "author": "Adam Nathaniel Davis <adam.davis@hashverify.com> (https://writing.voyage)",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.12.13",
+    "babel-jest": "^26.6.3",
+    "jest-matcher-one-of": "^1.0.2"
+  }
+}
