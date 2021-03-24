@@ -1,6 +1,6 @@
 {
   "name": "@toolz/use-synchronous-state",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A custom React Hook that provides a synchronous way to read and update a state variable",
   "keywords": [
     "Hooks",
@@ -20,6 +20,8 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.2",
+    "@toolz/clone": "^1.0.2",
+    "@toolz/is-a-regular-object": "^1.0.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
